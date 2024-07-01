@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# GAMES
+# Logic Games Collection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This repository features a collection of classic logic games implemented in React, providing interactive gameplay and challenging puzzles.
 
-In the project directory, you can run:
+## Games Included
 
-### `npm start`
+### Picas y Fijas (Bulls and Cows)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Picas y Fijas is a classic logic game where players guess a hidden number based on feedback provided for each guess:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Objective**: Guess the hidden number sequence within the specified number of attempts.
+- **Gameplay**: Players input a number and receive feedback in terms of "picas" (correct digits in wrong position) and "fijas" (correct digits in correct position).
+- **Levels**: Each level increases in difficulty by adding more digits to the hidden sequence, challenging players as they progress.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: Frontend library for building interactive user interfaces. Used to create dynamic gameplay elements, manage game state, and handle user interactions.
+- **JavaScript (ES6+)**: Core language for implementing game logic, handling data manipulation, and defining game rules.
+- **HTML/CSS**: Used for structuring the game layout and styling user interface elements to enhance usability and visual appeal.
+- **LocalStorage**: Utilized to store user progress, such as the highest level achieved in each game, allowing players to resume where they left off.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the games locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server with `npm start`.
+5. Open your browser and go to `http://localhost:3000` to view and play the games.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you have suggestions, feature requests, or find any issues, please open an issue or submit a pull request.
